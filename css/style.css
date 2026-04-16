@@ -27,3 +27,26 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+.countries-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: white;
+}
+
+.card img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
